@@ -1,0 +1,21 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontLigatures": true,
+    "editor.renderIndentGuides": true,
+    "editor.rulers": [80],
+    "editor.wordWrap": true,
+    "terminal.integrated.fontLigatures": true,
+    "files.associations": {
+    "*.js": "javascriptreact",
+    "*.css": "postcss"
+    },
+        "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "files.exclude": {
+        ".vscode": true
+    },
+    "typescript.check.tscVersion": false,
+    "window.zoomLevel": 1.25,
+    "workbench.sideBar.location": "right"
+}
