@@ -1,0 +1,19 @@
+# [user]
+#	  name = some name here
+#   email = someemail@here
+
+[alias]
+    all = add .
+    ck = checkout
+    cm = commit
+    st = status
+    sh = stash
+    shp = stash pop
+    shc = stash clear
+    shd = stash drop
+    shl = stash list
+    shs = stash show
+    br = branch
+    lg = log --all --graph --decorate --oneline --abbrev-commit
+    hs = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    pom = push origin master
