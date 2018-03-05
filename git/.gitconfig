@@ -1,11 +1,12 @@
 # [user]
-#	  name = some name here
+#	name = some name here
 #   email = someemail@here
 
 [alias]
     all = add .
     ck = checkout
-    cm = commit
+    cm = commit -m
+    cma = commit --amend -C HEAD
     st = status
     sh = stash
     shp = stash pop
