@@ -1,21 +1,30 @@
 {
-    "editor.tabSize": 2,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+        80
+    ],
     "editor.renderIndentGuides": true,
-    "editor.rulers": [80],
-    "editor.wordWrap": true,
-    "terminal.integrated.fontLigatures": true,
-    "files.associations": {
-    "*.js": "javascriptreact",
-    "*.css": "postcss"
-    },
-        "emmet.syntaxProfiles": {
-        "javascript": "jsx"
-    },
+    "window.zoomLevel": 0.25,
+    "editor.wordWrap": "on",
+    "vsicons.projectDetection.autoReload": true,
     "files.exclude": {
         ".vscode": true
     },
-    "typescript.check.tscVersion": false,
-    "window.zoomLevel": 1.25,
-    "workbench.sideBar.location": "right"
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "*.css": "postcss"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "workbench.panel.location": "right"
 }
